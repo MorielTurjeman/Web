@@ -1,0 +1,258 @@
+
+
+* {
+    padding:0;
+    margin:0;
+}
+
+
+body {
+    width: 100%;
+    background-color: #171932;
+}
+
+header, nav, footer, aside, section, main,article{
+    display: block;
+}
+
+/* Logo */
+#logo{
+    background: url(../images/Logo\ \(1\).png) no-repeat left;
+    background-size: contain;
+    height: 48px;
+    width: 48px;
+    display: block;
+    margin-top:16px;
+    margin-left:16px;
+}
+
+#coverSettings{
+    padding-left:60px;
+    background:url(../images/Shenkar\ Tours.png) no-repeat;
+    background-position: right;
+    /* background-size:contain ; */
+    height: 40px;
+    width: 322px;
+    display: block;
+}
+/* background pic of NY  & title first page */
+#coverImg{
+    margin-top: 30px; 
+    display: block;
+ }
+
+#mainTitle{
+    font-family: arial;
+    font-size:38px;
+    color:#FFFFFF;
+    height: 52px;
+    margin-left: 16px;
+    display: inline-block;
+    line-height: 52px;
+}
+#secondaryTitle{
+    font-family: arial;
+    font-size:22px;
+    color:#FFFFFF;
+    display: inline-block;
+    margin-left: 18px;
+    font-weight: normal;
+}
+
+#spaceTitle{
+    margin-top: 11px;
+    display: block;
+    
+}
+/* NY cards- first page */
+
+.card{                  
+    margin-top: 18px;
+    margin-left: 16px;
+    border-radius: 5px;
+    overflow: hidden;
+    width:270px;
+    display: inline-block;
+}
+
+.card img{
+    display: block;
+}
+
+/* purple square */
+.card > section {                                  
+    background-color: #9B51E0;
+    height: 60px;
+    width: 270px;
+    display: block;
+   
+}
+.card section section a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: arial;
+    font-size:16px;
+    display: inline-block;
+  
+}
+
+.card section section {
+    padding-top:17px;
+    padding-left: 10px;
+}
+
+
+
+/* alignment of each smalle img inside the purple square */
+.spaceshipImg{
+    background: url(../images/spship.png) no-repeat;
+    height: 19px;
+    display:inline-block;
+    margin-left:19px;
+    width: 13px;
+}
+.folderImg{
+    background: url(../images/fold2.png) no-repeat left;
+    height:19px;
+    margin-left: 10px;
+    width: 19px;
+    display: inline-block;
+
+}
+.cloudImg{
+    background: url(../images/cloud3.png) no-repeat left;
+    height:19px;
+    margin-left: 10px;
+    width:31px;
+    display: inline-block;
+
+}
+.settingsImg{
+    background: url(../images/sett4.png) no-repeat left;
+    height:19px;
+    margin-left: 10px;
+    width:19px;
+    display: inline-block;
+
+}
+
+/* the footer */
+
+footer section{
+    height: 48px;
+    margin-top:62px;
+    background-color: #9B51E0;
+}
+
+
+#firstLink {
+    margin-left: 16px;
+}
+
+footer section a{
+    margin-left:7px;
+    margin-top:13px;
+    display: inline-block;
+    
+
+} 
+
+#gallery{
+    margin-top: 36px;
+}
+
+
+
+#gallery img{
+ 
+    margin-left:20px;
+    border-radius: 10px;
+    overflow: hidden; 
+    width: 255px; 
+    vertical-align: middle;
+    display:inline-block;
+    
+}
+
+#gallery img:nth-child(2) {
+    width:380px;
+}
+
+#navBar{
+    margin-top:23px;
+    margin-left: 17px;
+
+}
+
+#navBar a {
+    padding-right: 8px;
+    margin-right: 5px;
+    font-family: arial;
+    font-size: 28px;
+    color: #FFFFFF;
+    font-weight: normal;
+    text-decoration: none;
+    display: inline-block;
+ 
+}
+
+#navBar a:not(:last-child) {
+    
+    border-right:2px solid #FFFFFF;
+}
+
+main > section:first-child, main > section:nth-child(2){
+    margin-top: 51px;
+
+}
+
+.InfoSection {
+    font-size:14px;
+    font-family:arial;
+    font-size:15px;
+    line-height:19px;
+    color:#FFFFFF;
+    
+}
+
+
+#categoryList{
+list-style: none;
+margin-top: 19px;
+
+}
+
+main > section{
+    margin-left: 16px;
+    margin-top: 71px;
+}
+
+/* text at list item */
+#categoryList li span{
+    font-family:arial;
+    font-size:14px;
+    color:#FFFFFF;
+    padding-left: 64px;
+    padding-top:18px;
+    display: inline-block;
+    
+
+}
+#categoryList li{
+background:url(../images/categoryList.png) no-repeat left;
+background-size:48px;
+margin-top:8px;
+height: 48px;
+
+
+}
+
+h2{
+    color:#FFFFFF;
+    font-size:30px;
+    font-family: arial;
+    line-height:41px;
+    padding-bottom:16px ;
+    
+}
+
