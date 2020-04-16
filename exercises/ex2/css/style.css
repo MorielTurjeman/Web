@@ -145,7 +145,7 @@ footer section{
 }
 
 
-#firstLink {
+footer section a:first-child {
     margin-left: 16px;
 }
 
@@ -254,5 +254,41 @@ h2{
     line-height:41px;
     padding-bottom:16px ;
     
+}
+
+.google
+{
+    background:url(../images/Google.png) no-repeat left;
+    background-size:24px;
+    /* margin-top:8px; */
+    height: 24px;
+    width: 24px;    
+}
+
+.facebook
+{
+    background:url(../images/Facebook.png) no-repeat left;
+    background-size:24px;
+    /* margin-top:8px; */
+    height: 24px;
+    width: 24px;
+}
+
+.linkedin
+{
+    background:url(../images/Linkedin.png) no-repeat left;
+    background-size:24px;
+    /* margin-top:8px; */
+    height: 24px;
+    width: 24px;
+}
+
+.twitter
+{
+    background:url(../images/Twitter.png) no-repeat left;
+    background-size:24px;
+    /* margin-top:8px; */
+    height: 24px;
+    width: 24px;
 }
 
