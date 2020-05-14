@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Forms!</title>
+    </head>
+
+
+<body>
+    <form action="http://html5-book.co.il/teach/forms/get_form2.php" method="get">
+
+        <label>
+            Name: 
+            <input type="text" name="fullName"  placeholder="name">
+        </lable><br>
+
+        <label>Password:
+            <input type="password" name="pass">
+        </label><br>
+
+        <label>
+            E-mail:
+            <input type="email" name="mail">
+         </label><br>
+         
+         <lable>Website:
+             <input type="url" name="web">
+         </label><br>
+
+
+         <label>Phone:
+             <input type="tel" name="phone">
+         </label><br>
+
+         <lable>Coffee:
+             <input type="coffee"  min=999 name="coffee">
+         </lable><br>
+
+         <lable>Temperature:
+             <input type="range" min=1 max=5 name="temper">
+         </lable><br>
+
+         <label>Address:
+             <textarea name="address" rows="2" cols="30"></textarea>
+         </label><br>
+
+         <span>Intersts:
+            <label>Reading Bookd<input type="checkbox" name="interests[]" value="reading books"</label>
+            <label>Children<input type="checkbox" name="interests[]" value="children"></label>
+			<label>Sleeping<input type="checkbox" name="interests[]" value="Sleeping"></label>
+			<label>Studying<input type="checkbox" name="interests[]" value="Studying"></label>
+			<label>Cleaning<input type="checkbox" name="interests[]" value="Cleaning"></label>
+         </span>
+         </label><br>
+
+         <span>Gender:</span>
+         <label>male<input type="radio" name="Gender" value="male" checked</label>
+         <label>female<input type="radio" name="Gender" value="female" checked</label>
+
+         </label><br><br>
+
+         <select name="age">
+             <option value="10">10</option>
+             <option value="20">20</option>
+             <option value="30">30</option>
+             <option value="40">40</option>
+
+         </select><br><br>
+
+
+         <input type="submit" value="Send">
+        </label><br>
+      </form>
+
+      <script>
+          document.getElementById("submit-button").onclick=function(){
+              console.log("submit-button");
+              return true;
+          }
+      </script>
+</body>
+
+</html>
